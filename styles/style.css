@@ -1,0 +1,114 @@
+/* Hello, this is a .css file, it changes the look of the website.
+if your goal was to edit the leements in the webiste to make funny screenshots thats actually in the .html files.
+otherwise, cheers mate! */
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: white;
+    color: black;
+}
+
+
+.site-nav ul {
+    background-color: black;
+    color: white;
+
+    list-style-type: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.site-nav li {
+    flex: 1;
+    max-width: 16rem;
+    border-right: 1px solid white;
+}
+
+.site-nav li:first-child {
+    border-left: 1px solid white;
+}
+
+.site-nav a {
+    color: white;
+    text-decoration: none;
+    text-align: center;
+
+    display: block;
+    padding: 0.5rem 1rem;
+}
+
+.site-nav [aria-current] a {
+    background: #07b;
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 0.15em;
+}
+
+.object-list {
+    background-color: rgb(238, 238, 238);
+    display: block;
+    padding: 0.5rem;
+}
+
+.object-list ul {
+    background-color: grey;
+    list-style-type: none;
+    padding: 0;
+}
+
+.object-list ul li {
+    padding: 10px;
+}
+
+.object-list ul li:nth-child(odd) {
+    background-color: rgb(83, 83, 83);
+}
+
+.object-list ul li:nth-child(even) {
+    background-color: rgb(53, 53, 53);
+}
+
+.object-list ul li {
+    color: white;
+}
+
+.object-list ul li a {
+    color: white;
+}
+
+.site-footer ul {
+    background-color: black;
+    color: white;
+
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+    gap: 1rem;
+    padding: 0.5rem;
+    margin: 0;
+}
+
+.site-footer ul li a {
+    color: white;
+}
+
+/* ------------------------------------------------ */
+
+.quote {
+    background-color: rgb(236, 235, 235);
+    padding: 1rem;
+    margin: 0;
+
+    border-left: 5px solid steelblue;
+}
+
+blockquote {
+    margin-left: 0;
+    margin-right: 0;
+}
