@@ -7,15 +7,63 @@ html {
 }
 
 body {
+    font-family: "Mozilla Text", "Arial", system-ui;
+
     background-color: white;
     color: black;
+
+    min-width: 600;
+
+    margin-top: 0;
+    margin-right: auto;
+    margin-left: auto;
+
+    padding-top: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 0;
+
+
 }
 
+.site-header {
+    margin-bottom: 0;
+    margin-top: 0;
+    padding-top: 0;
+    padding-bottom: 0;
 
-.site-nav ul {
-    background-color: black;
+    font-family: "Mozilla Headline", "Mozilla Text", "Arial", system-ui;
+}
+
+.site-header h1 {
+    padding-bottom: 0;
+    padding-top: 0;
+    margin-top: 3px;
+    margin-bottom: 0;
+    font-weight: 700;
+    font-size: 50px;
+}
+
+.site-header p {
+    margin-top: 0;
+    font-weight: 300;
+    font-size: 20px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.site-nav {
+    background-color: #333;
     color: white;
 
+    padding-right: 1rem;
+    padding-left: 1rem;
+    margin: 1rem 0;
+
+}
+
+.site-nav ul {
+    background-color: transparent;
     list-style-type: none;
     display: flex;
     padding: 0;
@@ -25,6 +73,7 @@ body {
 }
 
 .site-nav li {
+    background-color: #1b1b1b;
     flex: 1;
     max-width: 16rem;
     border-right: 1px solid white;
@@ -54,12 +103,15 @@ body {
     background-color: rgb(238, 238, 238);
     display: block;
     padding: 0.5rem;
+    margin-bottom: 1rem;
 }
 
 .object-list ul {
     background-color: grey;
     list-style-type: none;
     padding: 0;
+    
+    border: 2px solid rgb(53, 53, 53);
 }
 
 .object-list ul li {
@@ -83,14 +135,14 @@ body {
 }
 
 .site-footer ul {
-    background-color: black;
+    background-color: #333;
     color: white;
 
     list-style-type: none;
     display: flex;
     justify-content: flex-end;
     gap: 1rem;
-    padding: 0.5rem;
+    padding: 0.5rem 1rem;
     margin: 0;
 }
 
@@ -111,4 +163,25 @@ body {
 blockquote {
     margin-left: 0;
     margin-right: 0;
+}
+
+
+
+/* ------------------------------------------------ */
+
+
+.mozilla-text {
+  font-family: "Mozilla Text", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.mozilla-headline {
+  font-family: "Mozilla Headline", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
 }
