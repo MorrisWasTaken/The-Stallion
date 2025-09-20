@@ -75,7 +75,7 @@ body {
 .site-nav li {
     background-color: #1b1b1b;
     flex: 1;
-    max-width: 16rem;
+    max-width: 20rem;
     border-right: 1px solid white;
 }
 
@@ -152,10 +152,16 @@ body {
 
 /* ------------------------------------------------ */
 
+.warning-quote {
+    background-color: rgb(236, 235, 235);
+    padding: 1rem;
+
+    border-left: 5px solid darkred;
+}
+
 .quote {
     background-color: rgb(236, 235, 235);
     padding: 1rem;
-    margin: 0;
 
     border-left: 5px solid steelblue;
 }
@@ -163,6 +169,8 @@ body {
 blockquote {
     margin-left: 0;
     margin-right: 0;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
 }
 
 
