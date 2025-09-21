@@ -151,17 +151,6 @@ body {
 }
 
 /* ------------------------------------------------ */
-.content {
-    display: flex;
-    align-items: flex-start;
-}
-
-.edition-thumbnail {
-    width: 100px;
-    height: auto;
-    margin-right: 1rem;
-}
-/* ------------------------------------------------ */
 
 .warning-quote {
     background-color: rgb(236, 235, 235);
@@ -183,6 +172,7 @@ blockquote {
     margin-bottom: 1rem;
     margin-top: 1rem;
 }
+
 
 
 /* ------------------------------------------------ */
